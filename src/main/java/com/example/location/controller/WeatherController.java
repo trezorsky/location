@@ -31,7 +31,7 @@ public class WeatherController {
             return new ResponseEntity(restTemplate.getForObject(url, Weather.class), HttpStatus.OK);
         } else {
             return new ResponseEntity(HttpStatus.NOT_FOUND);
-        }
+         }
     }
 
     @GetMapping

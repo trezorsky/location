@@ -12,6 +12,6 @@ public class AppConfiguration {
     @LoadBalanced
     public RestTemplate restTemplate() {
         return new RestTemplate();
-    }
+     }
 
 }
